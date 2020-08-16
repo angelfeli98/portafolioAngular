@@ -6,12 +6,18 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ItemComponent } from './item/item.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { BlogComponent } from './blog/blog.component';
+import { ContactUsComponent } from './contacUs/contacUs.component';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
     declarations: [
         HomeComponent,
         AboutComponent,
-        ItemComponent
+        ItemComponent,
+        BlogComponent,
+        ContactUsComponent,
+        ArticleComponent
     ],
     imports: [
         CommonModule,
@@ -21,7 +27,10 @@ import { AppRoutingModule } from '../app-routing.module';
     exports: [
         HomeComponent,
         AboutComponent,
-        ItemComponent
+        ItemComponent,
+        BlogComponent,
+        ContactUsComponent,
+        ArticleComponent
     ]
 })
 export class PagesModule{}
