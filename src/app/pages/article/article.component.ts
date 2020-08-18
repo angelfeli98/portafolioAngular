@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-article',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticleComponent implements OnInit {
 
-  constructor() { }
+  private id: string;
+
+  constructor(
+    private activedRoute: ActivatedRoute
+  ){
+  }
 
   ngOnInit(): void {
   }

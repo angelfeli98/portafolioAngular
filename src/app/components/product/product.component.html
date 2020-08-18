@@ -1,0 +1,8 @@
+
+<a [routerLink]="['/item', getProduct.cod ]" class="rk-item ae-masonry__item">
+    <img [src]="'assets/img/' + getProduct.url + '.jpg'" alt="{{ getProduct.titulo }}">
+    <div class="item-meta">
+      <h2>{{ getProduct?.titulo }}</h2>
+      <p>{{ getProduct?.categoria }}</p>
+    </div>
+</a>

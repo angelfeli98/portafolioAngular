@@ -9,6 +9,8 @@ import { AppRoutingModule } from '../app-routing.module';
 import { BlogComponent } from './blog/blog.component';
 import { ContactUsComponent } from './contacUs/contacUs.component';
 import { ArticleComponent } from './article/article.component';
+import { ComponentsModule } from '../components/components.module';
+import { SearchComponent } from './search/search.components';
 
 @NgModule({
     declarations: [
@@ -17,12 +19,13 @@ import { ArticleComponent } from './article/article.component';
         ItemComponent,
         BlogComponent,
         ContactUsComponent,
-        ArticleComponent
+        ArticleComponent,
+        SearchComponent
     ],
     imports: [
         CommonModule,
         AppRoutingModule,
-        AppRoutingModule
+        ComponentsModule
     ],
     exports: [
         HomeComponent,
@@ -30,7 +33,8 @@ import { ArticleComponent } from './article/article.component';
         ItemComponent,
         BlogComponent,
         ContactUsComponent,
-        ArticleComponent
+        ArticleComponent,
+        SearchComponent
     ]
 })
 export class PagesModule{}

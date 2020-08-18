@@ -9,6 +9,7 @@ import { ItemComponent } from './pages/item/item.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ContactUsComponent } from './pages/contacUs/contacUs.component';
 import { ArticleComponent } from './pages/article/article.component';
+import { SearchComponent } from './pages/search/search.components';
 
 export const APP_ROUTES: Routes = [
     { path: 'home', pathMatch: 'full' ,component: HomeComponent },
@@ -17,6 +18,7 @@ export const APP_ROUTES: Routes = [
     { path: 'blog', component: BlogComponent },
     { path: 'contactUs', component: ContactUsComponent },
     { path: 'article/:id', component: ArticleComponent },
+    { path: 'search/:name', component: SearchComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ]
 
