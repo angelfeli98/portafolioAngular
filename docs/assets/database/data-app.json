@@ -1,0 +1,33 @@
+
+{
+    "title": "Aztec Byte",
+    "email": "info@aztecbyte.com",
+    "name": "AB COMPANY",
+    "team": [
+        {
+            "name": "Felipe Angel Regalado Zuñiga",
+            "role": "CEO - Co-funder",
+            "desription": "Search to put the better of yourself at your work",
+            "url": "assets/img/team-1.jpg",
+            "red": "@angelfeli98"
+        },
+        {
+            "name": "Fernando Gomez Huerta",
+            "role": "CTO - Co-funder",
+            "desription": "Lorem ......",
+            "url": "assets/img/team-1.jpg"
+        },
+        {
+            "name": "Carlos Yair Martines Gonzales",
+            "role": "CIO",
+            "desription": "Lorem .......",
+            "url": "assets/img/team-1.jpg"
+        },
+        {
+            "name": "Cristhian Flores Garcia",
+            "role": "CSO",
+            "desription": "Lorem .......",
+            "url": "assets/img/team-1.jpg"
+        }
+    ]
+}
